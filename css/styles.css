@@ -434,5 +434,9 @@ figure {
 }
 
 .icon {
-fill: var(--fill-main-color);
+  fill: var(--fill-main-color);
+}
+
+.icon-header {
+  fill: solid var(--main-text-color);
 }
