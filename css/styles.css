@@ -308,7 +308,7 @@ figure {
 }
 
 .description-section {
-  height: 769px;
+  height: 919px;
   background-color: var(--white-main-color);
 }
 
@@ -439,4 +439,10 @@ figure {
 
 .icon-header {
   fill: solid var(--main-text-color);
+  padding-right: 10px;
+}
+
+.icon-description {
+  display: flex;
+  gap: 30px;
 }
