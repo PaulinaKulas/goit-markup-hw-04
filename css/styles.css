@@ -445,4 +445,5 @@ figure {
 .icon-description {
   display: flex;
   gap: 30px;
+  padding-bottom: 30px;
 }
