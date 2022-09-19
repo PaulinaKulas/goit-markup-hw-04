@@ -447,3 +447,10 @@ figure {
   gap: 30px;
   padding-bottom: 30px;
 }
+
+.icon-clients {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
