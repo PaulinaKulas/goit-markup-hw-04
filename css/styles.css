@@ -454,4 +454,5 @@ figure {
   padding-top: 50px;
   padding-bottom: 94px;
   fill: solid var(--fill-main-color);
+  stroke: var(--fill-main-color);
 }
