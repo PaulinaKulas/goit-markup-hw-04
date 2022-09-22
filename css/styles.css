@@ -458,6 +458,6 @@ figure {
   border: 1px solid var(--fill-main-color);
 }
 
-.clients-container {
+.clients-list {
   display: flex;
 }
