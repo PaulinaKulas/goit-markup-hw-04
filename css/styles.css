@@ -439,6 +439,7 @@ figure {
 
 .icon-header {
   fill: solid var(--main-text-color);
+  margin-right: 10px;
 }
 
 .icon-description {
