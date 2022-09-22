@@ -451,7 +451,6 @@ figure {
   display: flex;
   width: 170px;
   height: 92px;
-  gap: 30px;
   padding-top: 50px;
   padding-bottom: 94px;
   fill: solid var(--fill-main-color);
@@ -460,4 +459,5 @@ figure {
 
 .clients-list {
   display: flex;
+  gap: 30px;
 }
