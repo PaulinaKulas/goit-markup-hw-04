@@ -441,7 +441,7 @@ figure {
   padding-top: 0;
 }
 
-.adress-list {
+.address-list {
   display: flex;
   flex-direction: column;
 }
