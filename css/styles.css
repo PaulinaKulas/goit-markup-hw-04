@@ -90,6 +90,7 @@ figure {
 
 .footer__container--left {
   display: flex;
+  flex-direction: column;
 }
 
 .header-wrap {
