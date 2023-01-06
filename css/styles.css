@@ -118,6 +118,8 @@ figure {
   height: 252px;
   margin-bottom: 0;
   padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .logo-footer {
