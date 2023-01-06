@@ -187,6 +187,7 @@ figure {
 .second-link {
   text-decoration: none;
   color: var(--text-black-color);
+  padding-left: 10px;
 }
 
 .second-link:hover,
@@ -439,6 +440,7 @@ figure {
 
 .icon-header {
   fill: solid var(--main-text-color);
+
 }
 
 .icon-description {
