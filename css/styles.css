@@ -88,11 +88,6 @@ figure {
   display: flex;
 }
 
-.footer__container--left {
-  display: flex;
-  flex-direction: column;
-}
-
 .header-wrap {
   display: flex;
   flex-direction: row;
@@ -118,12 +113,13 @@ figure {
   line-height: 1.38;
 }
 
-.footer-style {
+.footer {
   background-color: var(--background-grey-color);
   height: 252px;
   margin-bottom: 0;
   padding-bottom: 0;
   display: flex;
+  justify-content: center;
 }
 
 .footer__container {
@@ -131,7 +127,18 @@ figure {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 70px;
+}
+
+.footer__container--left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container--right {
+  display: flex;
+  flex-direction: row;
+  margin-top: 72px;
 }
 
 .logo-footer {
@@ -141,6 +148,21 @@ figure {
   font-weight: 700;
   line-height: 30.52px;
   padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* padding: 72px, 0px, 60px, 0px; */
+}
+
+.join-us {
+  font-weight: 700;
+  color: var(--white-main-color);
+  line-height: 1.17;
+  letter-spacing: 3%;
   padding-bottom: 20px;
 }
 
@@ -173,10 +195,6 @@ figure {
 .header__container--right {
   display: flex;
   gap: 50px;
-}
-
-.footer__container--right {
-  display: flex;
 }
 
 .first-contact {
@@ -348,7 +366,7 @@ figure {
   justify-content: center;
   background-color: var(--white-main-color);
   width: 270px;
-  height: 368px;
+  height: 428px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   margin: 0;
@@ -456,8 +474,12 @@ figure {
 }
 
 .icon-header {
-  fill: solid var(--main-text-color);
+  fill: var(--main-text-color);
+}
 
+.icon-header:hover {
+  fill: var(--blue-color);
+  cursor: pointer;
 }
 
 .icon-description {
@@ -470,8 +492,13 @@ figure {
   display: flex;
   width: 170px;
   height: 92px;
-  fill: solid var(--fill-main-color);
   border: 1px solid var(--fill-main-color);
+}
+
+.icon-clients:hover {
+  fill: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
 }
 
 .clients-list {
@@ -480,4 +507,22 @@ figure {
   margin: auto;
   padding-top: 50px;
   padding-bottom: 94px;
+}
+
+.icon-social-media {
+  fill: var(--white-main-color);
+}
+
+.icon-container {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 32px;
+  border: none;
+  fill: solid, rgba(255, 255, 255, 0.1);
+}
+
+.icon-wrap {
+  display: flex;
+  flex-direction: row;
 }
