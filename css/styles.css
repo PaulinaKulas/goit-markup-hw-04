@@ -509,20 +509,57 @@ figure {
   padding-bottom: 94px;
 }
 
-.icon-social-media {
-  fill: var(--white-main-color);
+.icon-socialmedia {
+  fill: var(--fill-main-color);
 }
 
-.icon-container {
-  width: 44px;
-  height: 44px;
-  padding: 10px;
-  border-radius: 32px;
-  border: none;
-  fill: solid, rgba(255, 255, 255, 0.1);
+.icon-socialmedia:hover {
+  fill: var(--white-main-color);
+  cursor: pointer;
+}
+
+.iconsm-container:hover {
+background-color: var(--blue-color);
+  fill: var(--white-main-color);
+  cursor: pointer;
+}
+
+.icon-social-media {
+  fill: var(--white-main-color);
 }
 
 .icon-wrap {
   display: flex;
   flex-direction: row;
+  gap: 10px;
+}
+
+.icon-wrapsm {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.icon-container {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--main-text-color);
+}
+
+.iconsm-container {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+}
+
+.icon-container:hover {
+  background-color: var(--blue-color);
+  cursor: pointer;
 }
